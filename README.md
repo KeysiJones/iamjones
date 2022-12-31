@@ -1,4 +1,4 @@
-# Keysi Jones's personal tech blog
+# Jones's personal tech blog
 
 This is my personal blog where i write about tech.
 

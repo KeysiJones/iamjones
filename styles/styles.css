@@ -32,7 +32,7 @@ b {
   color: #1e293b;
 }
 
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
   div#main-layout {
     @apply px-64 py-4 min-h-screen flex flex-col justify-between;
   }
@@ -42,7 +42,7 @@ b {
   div#main-layout {
     @apply px-40 py-4 min-h-screen flex flex-col justify-between;
   }
-}
+}*/
 
 @media (min-width: 758px) {
   div#avatar-title {
@@ -315,3 +315,37 @@ code.hljs {
 **************************************** CODE SNIPPETS THEME END*********************************************************
 
 */
+
+ /* Menu Styles */
+
+  div.menu {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    box-shadow: 19px -4px 20px 12px #ededed;
+    z-index: 1;
+    position: absolute;
+  }
+
+  div.menu > ul {
+    display: flex;
+  }
+
+  div.menu > ul > li {
+    padding: 10px 10px;
+    list-style: none;
+  }
+
+  /* Layout Styles */
+
+  div#main-layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  div.hero-section img {
+    opacity: 1;
+    object-fit: cover;
+  }
